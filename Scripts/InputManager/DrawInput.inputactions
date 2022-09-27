@@ -1,0 +1,40 @@
+{
+    "name": "DrawInput",
+    "maps": [
+        {
+            "name": "DrawPanel",
+            "id": "fead9c23-ecab-4185-bfd1-2d92bfe5f314",
+            "actions": [
+                {
+                    "name": "Draw",
+                    "type": "Button",
+                    "id": "ab80ba8b-fc10-441f-b2e8-90cf77cc15d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6bdb0454-7cdd-42ab-bfef-86433f76c566",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DrawInput",
+                    "action": "Draw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "DrawInput",
+            "bindingGroup": "DrawInput",
+            "devices": []
+        }
+    ]
+}
